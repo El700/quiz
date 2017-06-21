@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">  
+<link href="style.css" rel="stylesheet">
+<script src="main.js"></script>
+</head>
+    
+<body>
+
+<h1 id="title">Sovereign Music Movement</h1>
+<h4 id="heading">Score 3/5 and over and WIN an Album !!</h4> <br><br>
+    
+    <form id= "quiz" name = "quiz"> 
+       
+        <h6 class = "question1">What is the name of the first album of our catalogue?</h6> 
+                <input type="radio" id = "mc" name="albumName" value="Holly Rolling" > Holly Rolling<br>
+                <input type="radio"id = "mc" name="albumName" value="Black Tie Mystic"> Black Tie Mystic<br>
+                <input type="radio" id = "mc" name="albumName" value="Finger Gold"> Finger Gold<br><br>
+        
+        <h6 class = "question2">Who is the EMCEE on Love Train?</h6>
+               <input type="radio" id = "mc" name="loveTrain" value="Jason Mfresh"> Jason Mfresh<br>
+               <input type="radio" id = "mc" name="loveTrain" value="GiveIt 1000">Give It 1000<br>
+               <input type="radio" id = "mc" name="loveTrain" value="El Mega">El Mega<br><br>
+        
+        <h6 class = "question3">Name an event that SMM hosts ?</h6>
+                <input type="radio" id = "mc" name="shows" value="Eleatoir Night">Eleatoir Night<br>
+                <input type="radio" id = "mc" name="shows" value="Big Bang MTL"> Big Bang    MTL<br>
+                <input type="radio" id = "mc" name="shows" value="LeCinq"> LeCinq<br><br>
+        
+        <h6 class = "uestion4">Where is SMM based ?</h6>
+               <input type="radio" id = "mc" name="location" value="Toronto"> Toronto<br>
+               <input type="radio" id = "mc" name="location" value="Halifax"> Halifax<br>
+               <input type="radio" id = "mc" name="location" value="Montreal"> Montreal<br><br>
+        
+        <h6 class = "question5">What year did Holly Rolling come out?</h6>
+               <input type="radio" id = "mc" name="date" value="2010"> 2010<br>
+               <input type="radio" id = "mc" name="date" value="2012">2012<br>
+               <input type="radio" id = "mc" name="date" value="2014"> 2014 <br><br>
+        
+        <input id="button" type="button" value="I'm done!" onclick="check();">
+    
+        </form>
+    <div id="after_submit">
+        <h1 id="number_correct"></h1>
+    </div>
+</body>
+</html>

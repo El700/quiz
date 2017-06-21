@@ -1,0 +1,25 @@
+body {
+    background: url(Grayish.jpg);
+    background-size: cover;
+}
+
+#quiz {
+    text-align: center;
+    
+}
+
+#title {
+    text-align: center;
+}
+
+#heading {
+    text-align: center;
+}
+
+#number_correct {
+    text-decoration: inherit;
+    color: ;
+    text-align: center;
+    
+}
+
